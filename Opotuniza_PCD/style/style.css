@@ -156,4 +156,22 @@
     border: none;
 }
 
+.central {
+    max-width: 700px;
+    margin: auto;
+}
+
 /* End Vagas */
+
+#my-senha {
+    background-color: #f9f9f9;
+    color: #00A651;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    margin-top: 15px;
+}
+
+.email {
+    display: none;
+}

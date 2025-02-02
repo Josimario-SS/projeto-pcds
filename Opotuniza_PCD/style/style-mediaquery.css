@@ -34,7 +34,7 @@
     .container-pq {
         max-width: 650px;
         padding: 0px;
-        margin-top: 10px;
+        margin-top: -30px;
     }
     .container-txt {
         height: 20vh;
@@ -47,6 +47,9 @@
         border: 2px solid rgba(0, 0, 0, 0.619);
         border-radius: 10px;
         padding: 15px;
+    }
+    .margem {
+        margin-top: 86px;
     }
 
     .botoes {
