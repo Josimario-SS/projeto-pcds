@@ -11,7 +11,8 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/style2.css">
+    <link rel="stylesheet" href="../style/style-forms.css">
+    <link rel="stylesheet" href="../style/style-navbar.css">
 
     <!-- CSS Media Query-->
     <link rel="stylesheet" href="../style/style-mediaquery.css">
@@ -24,46 +25,44 @@
 <body>
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-      <div class="container">
-        <a class="navbar-brand" href="index.html" id="logo"><span>O</span>portuniza<span>PCD</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-          <span><i class="fa-solid fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html"><i class="fa-solid fa-house"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#vagas">Vagas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#noticias">Candidato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blogs">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cursos">Cursos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#concursos">Concursos</a>
-            </li>
-          </ul>
-        </div>
+    <div class="container">
+      <a class="navbar-brand" href="../index.html" id="logo"><span>O</span>portuniza<span>PCD</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Vagas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="leis_e_deficiencia.html">Leis & Deficiência</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="empresa.html">Empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cursos.html">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#concursos">Concursos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a href="login.html">Login</a>
+          <a href="cadastro.html">Cadastre-se</a>
+        </form>
       </div>
+    </div>
   </nav>
   <!-- End Nav Bar -->  
 
-  <!-- Replace the existing container div with this -->
-  <main>
-    <div class="main-content">
-      <div class="container">
-          <div class="form-container col-md-6 mx-auto">
-          </div>
-      </div>
+  <main class="margem-main">
+    
 
-    </div>
     <div class="container container-txt">
       <div class="d-flex justify-content-center text-center">
         <i class="material-symbols-outlined icon-acces">
@@ -73,7 +72,7 @@
       </div>
     </div>
     
-    <div class="sticky-sm-bottom container container-pq d-flex justify-content-center">
+    <div class="sticky-sm-bottom container container-g d-flex justify-content-center">
       <div class="form-container">
         <h2 class="form-header text-center">Cadastro de Candidato  
         </h2>
@@ -145,7 +144,7 @@
         </form>
       </div>
     </div>
-    <p>Já tem uma conta? <a id="item-link" href="#">Login</a></p>
+    <p>Já tem uma conta? <a id="item-link" href="login.html">Login</a></p>
   </main>
 
 

@@ -16,10 +16,20 @@
         padding-top: 59px;
     }
     .main {
-        height: 70vh;
+        height: 365px;
     }
     .main-img img {
         padding-bottom: 38px;
+    }
+}
+
+@media screen and (min-width: 765px) and (max-width: 992px) {
+    .posicao {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .lar {
+        width: 100%;
     }
 }
 
@@ -31,13 +41,8 @@
 /* Inicío Media query página Cadastro */
 
 @media screen and (min-width: 150px) {
-    .container-pq {
-        max-width: 650px;
-        padding: 0px;
-        margin-top: -30px;
-    }
     .container-txt {
-        height: 20vh;
+        height: 105px;
         margin-top: -105px;
     }
     .form-container {
@@ -67,5 +72,12 @@
         padding: 10px;
         margin-bottom: 10px;
         border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .como-funciona-content   {
+        display: flex;
+        flex-flow: column nowrap;
     }
 }

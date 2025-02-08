@@ -4,6 +4,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
+
 h1 {
   font-size: 1.8em;
   font-weight: 600;
@@ -29,7 +30,7 @@ p {
 }
 
 .main-content {
-  min-height: 196px; /* Adjust container height to account for navbar */
+  min-height: 208px; /* Adjust container height to account for navbar */
   display: block;
 }
 
@@ -62,7 +63,7 @@ p {
 }
 
 .container-txt {
-  height: 10vh;
+  height: 105px;
   margin-top: -115px;
 }
 .text-center {
@@ -86,6 +87,7 @@ p {
   border-radius: 10px;
   border: none;
 }
+
 .item-link:hover {
   box-shadow: 0px 5px 5px rgba(71, 71, 71, 0.131);
   margin-top: -2px;
@@ -109,4 +111,39 @@ p {
   padding: 0px;
   margin: 0px;
   height: 0px;
+}
+
+.form-container .cadastre{
+    background-color: #f9f9f9;
+    color: #00A651;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+#my-senha {
+  background-color: #f9f9f9;
+  color: #00A651;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  margin-top: 15px;
+}
+
+.email {
+  display: none;
+}
+
+.margem-main {
+  margin-top: 208px;
+}
+.container-g {
+  max-width: 650px;
+  padding: 0px;
+  margin-top: -30px;
+}
+.container-pq {
+  max-width: 650px;
+  padding: 0px;
+  margin-top: -30px;
 }
